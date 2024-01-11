@@ -5,10 +5,12 @@ See https://github.com/mkinney/webpinggo
 
 See https://github.com/mkinney/webpinggo_module
 
+# Notes
+- If there is a container running for that docker image, it will show as an error in the 'destroy' step. Ok
+to safely ignore that error.
+
 # TODO
 - locals vs inputs
-- need to pin the docker image instead of using latest
-- how to not remove docker image? (destroy shows error)
 
 # Steps
 ```
