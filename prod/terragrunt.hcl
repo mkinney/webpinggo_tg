@@ -3,6 +3,6 @@ terraform {
 }
 
 inputs = {
-  external_port = 8001
+  external_port        = 8001
   docker_image_version = "v0.9.1"
 }

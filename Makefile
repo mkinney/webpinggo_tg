@@ -2,6 +2,9 @@
 
 .PHONY:plan
 
+fmt:
+	terragrunt run-all hclfmt
+
 init:
 	terragrunt run-all init
 
