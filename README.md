@@ -14,8 +14,7 @@ to safely ignore that error.
 
 # Steps
 ```
-make init
-make plan
 make up
+make test
 make destroy
 ```
