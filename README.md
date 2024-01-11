@@ -6,7 +6,6 @@ See https://github.com/mkinney/webpinggo_module
 
 # TODO
 - locals vs inputs
-- how to prevent the root folder from creating?
 
 # Steps
 ```
