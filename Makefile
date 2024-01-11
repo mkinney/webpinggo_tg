@@ -14,7 +14,10 @@ plan:
 apply:
 	terragrunt run-all apply
 
-up: init plan apply
+validate:
+	terragrunt run-all validate
+
+up: fmt init plan apply validate
 	echo "starting..."
 
 destroy:
